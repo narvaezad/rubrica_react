@@ -7,10 +7,6 @@ export default function Footer() {
         Dev<span>Reality</span>
       </div>
 
-      <p className="footer-copy">
-        Proyecto SPA · React Router · {new Date().getFullYear()}
-      </p>
-
       <ul className="footer-links">
         <li><Link to="/problema">Problema</Link></li>
         <li><Link to="/errores">Errores</Link></li>
